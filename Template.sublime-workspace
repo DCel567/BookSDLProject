@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"pRenderer"
+			],
+			[
+				"Texture",
+				"TextureManager"
+			],
+			[
 				"m_p",
 				"m_pWindow"
 			],
@@ -65,6 +73,11 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
 		"/D/Programming/SDL2 Games/2dBook/src/main.cpp",
 		"/D/Programming/SDL2 Games/2dBook/include/Game.hpp",
 		"/D/Programming/SDL2 Games/2dBook/res/hulking_knight.png",
