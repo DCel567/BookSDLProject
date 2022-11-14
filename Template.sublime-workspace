@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"m_curr",
+				"m_currentFrame"
+			],
+			[
+				"m_p",
+				"m_pRenderer"
+			],
+			[
+				"m",
+				"m_textureMap"
+			],
+			[
 				"p",
 				"pRenderer"
 			],
 			[
 				"Texture",
 				"TextureManager"
-			],
-			[
-				"m_p",
-				"m_pWindow"
 			],
 			[
 				"SDL_",
@@ -73,11 +81,20 @@
 	},
 	"file_history":
 	[
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/LoaderParams.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Game.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Game.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
 		"/D/Programming/SDL2 Games/2dBook/src/main.cpp",
 		"/D/Programming/SDL2 Games/2dBook/include/Game.hpp",
 		"/D/Programming/SDL2 Games/2dBook/res/hulking_knight.png",
@@ -91,7 +108,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -105,6 +122,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"m_pRenderer",
 			";\n",
 			"m_sourceRectangle",
 			"finish",
@@ -129,7 +147,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 43.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -160,7 +178,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 133.0
+		"height": 149.0
 	},
 	"output.find_results":
 	{
@@ -169,7 +187,7 @@
 	"pinned_build_system": "Build Debug",
 	"replace":
 	{
-		"height": 82.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
