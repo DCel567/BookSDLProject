@@ -2,6 +2,9 @@
 
 #include <SDL2/SDL.h>
 #include <vector>
+#include <utility>
+
+#include "Vector2D.hpp"
 
 class InputHandler
 {
@@ -15,6 +18,12 @@ private:
 	std::vector<SDL_Joystick*> m_joysticks;
 	bool m_bJoysticksInitialised;
 
+	const int m_joystickDeadZone = 10000;
+
+	std::vector<std::pair<Vector2D*, Vector2D*>> m_joystickValues;
+
+	std::vector<std::vector<bool>> m_buttonStates;
+
 public:
 
 	static InputHandler* Instance()
@@ -25,13 +34,21 @@ public:
 		return s_pInstance;
 	}
 
+
+	int xvalue(int joy, int stick);
+	int yvalue(int joy, int stick);
+
+	bool getButtonState(int joy, int buttonNumber);
+
 	void update();
 	void clean();
 
 	void initialiseJoysticks();
+	
 	bool joysticksInitialised(){
 		return m_bJoysticksInitialised;
 	}
+
 
 };
 typedef InputHandler TheInputHandler;

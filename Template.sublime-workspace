@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"The",
+				"TheInputHandler"
+			],
+			[
+				"m_",
+				"m_joysticks"
+			],
+			[
+				"SDL",
+				"SDL_NumJoysticks"
+			],
+			[
 				"m_curr",
 				"m_currentFrame"
 			],
@@ -81,20 +93,21 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/LoaderParams.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Game.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Vector2D.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/TextureManager.o",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/LoaderParams.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Game.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/Game.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
 		"/D/Programming/SDL2 Games/2dBook/src/main.cpp",
 		"/D/Programming/SDL2 Games/2dBook/include/Game.hpp",
@@ -109,7 +122,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -123,6 +136,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"The",
+			"input",
 			"m_pRenderer",
 			";\n",
 			"m_sourceRectangle",
@@ -179,7 +194,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 191.0
+		"height": 270.0
 	},
 	"output.find_results":
 	{
@@ -225,7 +240,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 212.0,
+	"side_bar_width": 193.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
