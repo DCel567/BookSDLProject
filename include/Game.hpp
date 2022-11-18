@@ -8,6 +8,7 @@
 #include "Player.hpp"
 #include "Enemy.hpp"
 #include "LoaderParams.hpp"
+#include "InputHandler.hpp"
 
 class Game
 {
