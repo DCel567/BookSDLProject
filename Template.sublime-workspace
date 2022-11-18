@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"The",
-				"TheInputHandler"
+				"m_",
+				"m_mouseButtonStates"
 			],
 			[
-				"m_",
-				"m_joysticks"
+				"whi",
+				"whichOne"
+			],
+			[
+				"The",
+				"TheInputHandler"
 			],
 			[
 				"SDL",
@@ -194,7 +198,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 270.0
+		"height": 148.0
 	},
 	"output.find_results":
 	{

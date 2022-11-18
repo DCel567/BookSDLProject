@@ -3,14 +3,26 @@
 #include <SDL2/SDL.h>
 #include <vector>
 #include <utility>
+#include <iostream>
 
 #include "Vector2D.hpp"
+
+
+enum mouse_buttons
+{
+	LEFT = 0,
+	MIDDLE = 1,
+	RIGHT = 2,
+	SIDEUP = 3,
+	SIDEDOWN = 4
+};
+
 
 class InputHandler
 {
 private:
 
-	InputHandler() {}
+	InputHandler();
 	~InputHandler() {}
 
 	static InputHandler* s_pInstance;
@@ -23,6 +35,10 @@ private:
 	std::vector<std::pair<Vector2D*, Vector2D*>> m_joystickValues;
 
 	std::vector<std::vector<bool>> m_buttonStates;
+
+	std::vector<bool> m_mouseButtonStates;
+
+	Vector2D* m_mousePosition;
 
 public:
 
@@ -47,6 +63,14 @@ public:
 	
 	bool joysticksInitialised(){
 		return m_bJoysticksInitialised;
+	}
+
+	bool getMouseButtonState(int buttonNumber){
+		return m_mouseButtonStates[buttonNumber];
+	}
+
+	Vector2D* getMousePosition(){
+		return m_mousePosition;
 	}
 
 
