@@ -1,3 +1,4 @@
+#pragma once
 #include <math.h>
 
 class Vector2D
@@ -21,8 +22,8 @@ public:
 
 	Vector2D& operator+=(const Vector2D& v2)
 	{
-		v1.m_x += v2.m_x;
-		v1.m_y += v2.m_y;
+		m_x += v2.m_x;
+		m_y += v2.m_y;
 
 		return *this;
 	}
@@ -45,7 +46,7 @@ public:
 		return Vector2D(m_x - v2.m_x, m_y - v2.m_y);
 	}
 
-	Vector2d& operator-=(const Vector2D& v2)
+	Vector2D& operator-=(const Vector2D& v2)
 	{
 		m_x -= v2.m_x;
 		m_y -= v2.m_y;

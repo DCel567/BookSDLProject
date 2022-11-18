@@ -82,6 +82,7 @@
 	"file_history":
 	[
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/TextureManager.o",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
@@ -108,7 +109,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -178,7 +179,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 149.0
+		"height": 191.0
 	},
 	"output.find_results":
 	{
@@ -224,7 +225,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 181.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
