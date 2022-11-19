@@ -40,6 +40,8 @@ private:
 
 	Vector2D* m_mousePosition;
 
+	const Uint8* m_keystates;
+
 public:
 
 	static InputHandler* Instance()
@@ -73,6 +75,7 @@ public:
 		return m_mousePosition;
 	}
 
+	bool isKeyDown(SDL_Scancode key);
 
 };
 typedef InputHandler TheInputHandler;

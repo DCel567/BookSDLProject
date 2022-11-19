@@ -97,6 +97,7 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Vector2D.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/LoaderParams.hpp",
@@ -105,7 +106,6 @@
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/Vector2D.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/TextureManager.o",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",

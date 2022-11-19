@@ -91,6 +91,8 @@ void InputHandler::update()
 	SDL_Event event;
 	while(SDL_PollEvent(&event))
 	{
+		m_keystates = SDL_GetKeyboardState(0);
+
 		if(event.type == SDL_QUIT)
 			TheGame::Instance()->clean();
 
@@ -187,4 +189,16 @@ void InputHandler::update()
 			m_mousePosition->setY(event.motion.y);
 		}
 	}
+}
+
+bool InputHandler::isKeyDown(SDL_Scancode key)
+{
+	if(m_keystates != 0)
+	{
+		if(m_keystates[key] == 1)
+			return true;
+		else
+			return false;
+	}
+	return false;
 }
