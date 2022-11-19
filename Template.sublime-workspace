@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"onJoy",
+				"onJoystickButtonUp"
+			],
+			[
+				"onJoystick",
+				"onJoystickButtonDown"
+			],
+			[
+				"onKey",
+				"onKeyDown"
+			],
+			[
+				"on",
+				"onMouseButtonUp"
+			],
+			[
+				"onMouseBu",
+				"onMouseButtonDown"
+			],
+			[
 				"m_",
 				"m_mouseButtonStates"
 			],
@@ -81,7 +101,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 230.0,
 		"history":
 		[
 		]
@@ -97,6 +117,13 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/MenuState.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/PlayState.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/PlayState.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/MenuState.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameState.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Vector2D.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
@@ -104,12 +131,10 @@
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Game.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/TextureManager.o",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Game.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
@@ -140,6 +165,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onJoystickButtonDown",
 			"The",
 			"input",
 			"m_pRenderer",
@@ -171,7 +197,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"layout":
 	{
@@ -198,7 +224,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 148.0
+		"height": 210.0
 	},
 	"output.find_results":
 	{

@@ -4,11 +4,14 @@
 #include <vector>
 #include <iostream>
 
-#include "SDLGameObject.hpp"
-#include "Player.hpp"
-#include "Enemy.hpp"
-#include "LoaderParams.hpp"
+// #include "SDLGameObject.hpp"
+// #include "Player.hpp"
+// #include "Enemy.hpp"
+// #include "LoaderParams.hpp"
 #include "InputHandler.hpp"
+#include "GameStateMachine.hpp"
+#include "MenuState.hpp"
+#include "PlayState.hpp"
 
 class Game
 {
@@ -33,11 +36,11 @@ public:
 	bool running() const {return m_bRunning;}
 	SDL_Renderer* getRenderer() const {return m_pRenderer;}
 
-	SDLGameObject* m_player;
-	SDLGameObject* m_go;
-	SDLGameObject* m_enemy;
+	// SDLGameObject* m_player;
+	// SDLGameObject* m_go;
+	// SDLGameObject* m_enemy;
 
-	std::vector<SDLGameObject*> m_gameObjects;
+	// std::vector<SDLGameObject*> m_gameObjects;
 
 private:
 
@@ -52,6 +55,8 @@ private:
 	int m_currentFrame;
 
 	bool m_bRunning;
+
+	GameStateMachine* m_pGameStateMachine;
 };
 	
 typedef Game TheGame;
