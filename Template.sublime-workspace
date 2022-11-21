@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getMouseButtonState"
+			],
+			[
 				"cle",
 				"clearFromTextureMap"
 			],
@@ -234,7 +238,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 122.0
+		"height": 235.0
 	},
 	"output.find_results":
 	{

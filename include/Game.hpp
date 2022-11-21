@@ -4,10 +4,6 @@
 #include <vector>
 #include <iostream>
 
-// #include "SDLGameObject.hpp"
-// #include "Player.hpp"
-// #include "Enemy.hpp"
-// #include "LoaderParams.hpp"
 #include "InputHandler.hpp"
 #include "GameStateMachine.hpp"
 #include "MenuState.hpp"

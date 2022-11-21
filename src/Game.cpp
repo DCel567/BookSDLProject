@@ -51,17 +51,6 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 	m_pGameStateMachine = new GameStateMachine();
 	m_pGameStateMachine->changeState(new MenuState());
 
-	// if(!TheTextureManager::Instance()->load("res/hulking_knight.png", "animate", getRenderer()))
-	// {
-	// 	return false;
-	// }
-
-	// TheInputHandler::Instance()->initialiseJoysticks();
-
-	// m_gameObjects.push_back(new Player(new LoaderParams(100, 100, 64, 64, "animate")));
-
-	// m_gameObjects.push_back(new Enemy(new LoaderParams(300, 300, 64, 64, "animate")));
-
 	return true;
 }
 

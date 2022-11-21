@@ -8,7 +8,7 @@ int main(int argc, char* args[])
 	Uint32 frameStart, frameTime;
 
 	std::cout << "game init attempt...\n";
-	if(TheGame::Instance()->init("Platformer", 100, 100, 640, 480, false))
+	if(TheGame::Instance()->init("Platformer", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, false))
 	{
 		std::cout << "game init success\n";
 		while(TheGame::Instance()->running())
