@@ -36,11 +36,7 @@ public:
 	bool running() const {return m_bRunning;}
 	SDL_Renderer* getRenderer() const {return m_pRenderer;}
 
-	// SDLGameObject* m_player;
-	// SDLGameObject* m_go;
-	// SDLGameObject* m_enemy;
-
-	// std::vector<SDLGameObject*> m_gameObjects;
+	GameStateMachine* getStateMachine() { return m_pGameStateMachine; }
 
 private:
 
