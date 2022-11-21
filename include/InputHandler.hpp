@@ -78,6 +78,8 @@ public:
 		return m_mouseButtonStates[buttonNumber];
 	}
 
+	void reset();
+
 	Vector2D* getMousePosition(){
 		return m_mousePosition;
 	}

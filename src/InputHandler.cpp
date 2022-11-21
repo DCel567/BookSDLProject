@@ -248,3 +248,9 @@ int InputHandler::yvalue(int joy, int stick)
 	}
 	return 0;
 }
+
+void InputHandler::reset()
+{
+	for(size_t i = 0; i < m_mouseButtonStates.size(); ++i)
+		m_mouseButtonStates[i] = false;
+}
