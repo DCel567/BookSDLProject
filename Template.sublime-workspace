@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getStateMachine"
+			],
+			[
+				"P",
+				"LoaderParams"
+			],
+			[
 				"Gam",
 				"GameObject"
 			],
 			[
 				"cle",
 				"clearFromTextureMap"
-			],
-			[
-				"get",
-				"getMouseButtonState"
 			],
 			[
 				"The",
@@ -133,29 +137,33 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/AnimatedGraphic.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/AnimatedGraphic.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/PlayState.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/PlayState.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/InputHandler.hpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/InputHandler.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/main.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/SDLGameObject.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/MenuState.cpp",
 		"/C/Users/egrka/OneDrive/Рабочий стол/heli.png",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/Player.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/Player.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/Game.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Game.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/TextureManager.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameStateMachine.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameStateMachine.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameState.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/PlayState.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/PlayState.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/MenuState.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Vector2D.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/SDLGameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/TextureManager.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/LoaderParams.hpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/src/Enemy.cpp",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/TextureManager.o",
-		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameObject.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameObject.cpp",
 		"/D/Programming/SDL2 Games/2dBook/src/main.cpp",
 		"/D/Programming/SDL2 Games/2dBook/include/Game.hpp",
@@ -243,7 +251,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 165.0
+		"height": 156.0
 	},
 	"output.find_results":
 	{
@@ -289,7 +297,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

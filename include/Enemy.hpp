@@ -11,4 +11,6 @@ public:
 	void draw();
 	void update();
 	void clean();
+
+	int m_numFrames = 1;
 };

@@ -6,6 +6,7 @@
 #include "GameObject.hpp"
 #include "TextureManager.hpp"
 #include "Player.hpp"
+#include "Enemy.hpp"
 
 
 class PlayState : public GameState
