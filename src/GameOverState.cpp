@@ -6,9 +6,25 @@
 #include "AnimatedGraphic.hpp"
 #include "LoaderParams.hpp"
 #include "MenuButton.hpp"
+#include "PlayState.hpp"
+#include "PauseState.hpp"
 
 
 const std::string GameOverState::s_gameOverID = "GAMEOVER";
+
+void GameOverState::update(){
+	for(size_t i = 0; i < m_gameObjects.size(); i++)
+	{
+		m_gameObjects[i]->update();
+	}
+}
+
+
+void GameOverState::render(){
+	for(size_t i = 0; i < m_gameObjects.size(); ++i)
+		m_gameObjects[i]->draw();
+}
+
 
 void GameOverState::s_gameOverToMain()
 {

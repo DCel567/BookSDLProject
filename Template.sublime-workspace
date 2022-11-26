@@ -137,6 +137,8 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameOverState.cpp",
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameOverState.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/AnimatedGraphic.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/AnimatedGraphic.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/Enemy.hpp",
@@ -251,7 +253,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 156.0
+		"height": 247.0
 	},
 	"output.find_results":
 	{
@@ -297,7 +299,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 173.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
