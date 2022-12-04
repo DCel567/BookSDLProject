@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"SDL",
+				"SDLGameObject"
+			],
+			[
 				"get",
 				"getStateMachine"
 			],
@@ -54,10 +58,6 @@
 			[
 				"whi",
 				"whichOne"
-			],
-			[
-				"SDL",
-				"SDL_NumJoysticks"
 			],
 			[
 				"m_curr",
@@ -137,6 +137,7 @@
 	},
 	"file_history":
 	[
+		"/D/Programming/SDL2 Games/bookAccordingProject/include/tinyxml.h",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/GameOverState.cpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/include/GameOverState.hpp",
 		"/D/Programming/SDL2 Games/bookAccordingProject/src/AnimatedGraphic.cpp",
