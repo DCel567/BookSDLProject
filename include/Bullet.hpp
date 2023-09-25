@@ -12,7 +12,7 @@ public:
 	void update();
 	void clean();
 
-	int m_numFrames = 1;
+	int m_numFrames;
 
 private:
 	bool is_moving_right;

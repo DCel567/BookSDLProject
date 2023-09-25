@@ -4,9 +4,8 @@
 
 
 Bullet::Bullet(const LoaderParams* pParams)
-: SDLGameObject(pParams){
+: SDLGameObject(pParams), m_numFrames(2){
 	is_moving_right = false;
-	//move_speed = 5;
 	move_angle = 0;
 
 	if(is_moving_right){
@@ -24,6 +23,7 @@ void Bullet::draw(){
 }
 
 void Bullet::update(){
+	m_currentFrame = curr_frame_num(m_numFrames);
 	SDLGameObject::update();
 }
 

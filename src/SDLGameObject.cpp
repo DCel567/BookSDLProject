@@ -12,6 +12,10 @@ SDLGameObject::SDLGameObject(const LoaderParams* pParams)
 	m_currentFrame = 1;
 }
 
+int SDLGameObject::curr_frame_num(const int frame_amount){
+	return int(((SDL_GetTicks() / 100) % frame_amount));
+}
+
 void SDLGameObject::draw()
 {
 	if(m_velocity.getX() > 0)

@@ -20,6 +20,8 @@ public:
 	int getWidth() { return m_width; }
 	int getHeight() { return m_height; }
 
+	int curr_frame_num(const int frame_amount);
+
 protected:
 
 	Vector2D m_position;

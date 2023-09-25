@@ -65,6 +65,9 @@ bool PlayState::onEnter(){
 	if(!TheTextureManager::Instance()->load("res/heli2.png", "helicopter2", TheGame::Instance()->getRenderer()))
 		return false;
 
+	if(!TheTextureManager::Instance()->load("res/Bullet.png", "bullet", TheGame::Instance()->getRenderer()))
+		return false;
+
 	GameObject* player = new Player(new LoaderParams(500, 100, 81, 81, "helicopter"));
 
 	GameObject* enemy = new Enemy(new LoaderParams(100, 100, 81, 81, "helicopter2"));
@@ -94,7 +97,7 @@ void PlayState::check_shot(){
 	{
 		if(m_bReleased){
 			GameObject* bullet = 
-					new Bullet(new LoaderParams(500, 100, 50, 50,"helicopter"));
+					new Bullet(new LoaderParams(500, 100, 25, 10,"bullet"));
 
 			m_gameObjects.push_back(bullet);
 
