@@ -22,6 +22,8 @@ void PlayState::update(){
 	if (checkCollision(dynamic_cast<SDLGameObject*>(m_gameObjects[0]), dynamic_cast<SDLGameObject*>(m_gameObjects[1]))){
 		TheGame::Instance()->getStateMachine()->pushState(new GameOverState());
 	}
+
+	check_shot();
 }
 
 
@@ -85,4 +87,25 @@ bool PlayState::onExit(){
 
 	std::cout << "exiting PlayState\n";
 	return true;
+}
+
+void PlayState::check_shot(){
+	if(TheInputHandler::Instance()->getMouseButtonState(LEFT) && m_bReleased)
+	{
+		if(m_bReleased){
+			GameObject* bullet = 
+					new Bullet(new LoaderParams(500, 100, 50, 50,"helicopter"));
+
+			m_gameObjects.push_back(bullet);
+
+			std::cout << "Bullet created\t gameObject.size: " << m_gameObjects.size() << "\n";
+		}
+		m_bReleased = false;
+	}
+	else if(!TheInputHandler::Instance()->getMouseButtonState(LEFT)){
+		if(!m_bReleased){
+			m_bReleased = true;
+		
+		}
+	}
 }

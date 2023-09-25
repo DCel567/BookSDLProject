@@ -6,6 +6,7 @@
 #include "TextureManager.hpp"
 #include "Player.hpp"
 #include "Enemy.hpp"
+#include "Bullet.hpp"
 #include "SDLGameObject.hpp"
 
 
@@ -26,6 +27,9 @@ private:
 	static const std::string s_playID;
 
 	std::vector<GameObject*> m_gameObjects;
+
+	bool m_bReleased;
+	void check_shot();
 	
 	bool checkCollision(SDLGameObject* p1, SDLGameObject* p2);
 };
